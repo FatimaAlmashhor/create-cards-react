@@ -1,0 +1,34 @@
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 94vh;
+    /* overflow-y: scroll; */
+}
+.download-btn{
+    display: none;
+}
+
+@media screen and (max-width : 780px) {
+    .download-btn{
+        display: block;
+        flex: 1;
+        justify-self: flex-end;
+        position: relative;
+    }
+    .download-btn p {
+        text-align: start;
+        background-color: rgb(230, 230, 230);
+        position: absolute;
+        bottom: 0px;
+        left : 0px ;
+        right:0px;
+        width:100%;
+        padding: 10px 0px;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+    .download-btn p:hover {
+        background-color: rgb(212, 211, 211);
+    }
+}

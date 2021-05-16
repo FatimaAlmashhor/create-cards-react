@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+	font-family: 'Dima';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/Dima-Font.ttf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'FFBouya';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/FFBouya-Normal.otf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'FFHekaya';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/FFHekaya-Light.otf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'HSN_Moalla';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/HSN_Moalla.ttf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'Kharabeesh';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/Kharabeesh-Font.ttf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'phalls_khodkar';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/phalls_khodkar.ttf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'VIP-Rawy';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/VIP-Rawy-Regular.otf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
+@font-face {
+	font-family: 'WasmFont';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/WasmFont.ttf');
+	/* src: url('./fonts/Dima-Font.ttf?#iefix') format('embedded-opentype'), url('./fonts/Dima-Font.ttf') format('woff'), url('./fonts/Dima-Font.ttf') format('truetype'), url('../fonts/Dima-Font.ttf') format('svg'); */
+}
