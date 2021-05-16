@@ -38,6 +38,7 @@ function App() {
           </div>
           <div className='frame-position'>
             <Frame />
+            <p>made by @FatimaAlmashhor</p>
           </div>
         </div>
       </div>

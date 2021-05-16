@@ -2,7 +2,7 @@
   "name": "eid-cards",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomerpacific.github.io/starter-project/", 
+  "homepage": "https://FatimaAlmashhor.github.io/create-cards-react/", 
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
