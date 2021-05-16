@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/starter-project/static/css/main.b5636eab.chunk.css",
-    "main.js": "/starter-project/static/js/main.105bbd12.chunk.js",
-    "main.js.map": "/starter-project/static/js/main.105bbd12.chunk.js.map",
-    "runtime-main.js": "/starter-project/static/js/runtime-main.35959db8.js",
-    "runtime-main.js.map": "/starter-project/static/js/runtime-main.35959db8.js.map",
-    "static/js/2.844e06db.chunk.js": "/starter-project/static/js/2.844e06db.chunk.js",
-    "static/js/2.844e06db.chunk.js.map": "/starter-project/static/js/2.844e06db.chunk.js.map",
-    "static/js/3.92e8bba4.chunk.js": "/starter-project/static/js/3.92e8bba4.chunk.js",
-    "static/js/3.92e8bba4.chunk.js.map": "/starter-project/static/js/3.92e8bba4.chunk.js.map",
-    "index.html": "/starter-project/index.html",
-    "static/css/main.b5636eab.chunk.css.map": "/starter-project/static/css/main.b5636eab.chunk.css.map",
-    "static/js/2.844e06db.chunk.js.LICENSE.txt": "/starter-project/static/js/2.844e06db.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/starter-project/static/media/phalls_khodkar.d8f20807.ttf"
+    "main.css": "/create-cards-react/static/css/main.c8e77bd8.chunk.css",
+    "main.js": "/create-cards-react/static/js/main.105bbd12.chunk.js",
+    "main.js.map": "/create-cards-react/static/js/main.105bbd12.chunk.js.map",
+    "runtime-main.js": "/create-cards-react/static/js/runtime-main.f4057ab0.js",
+    "runtime-main.js.map": "/create-cards-react/static/js/runtime-main.f4057ab0.js.map",
+    "static/js/2.b55a962d.chunk.js": "/create-cards-react/static/js/2.b55a962d.chunk.js",
+    "static/js/2.b55a962d.chunk.js.map": "/create-cards-react/static/js/2.b55a962d.chunk.js.map",
+    "static/js/3.92e8bba4.chunk.js": "/create-cards-react/static/js/3.92e8bba4.chunk.js",
+    "static/js/3.92e8bba4.chunk.js.map": "/create-cards-react/static/js/3.92e8bba4.chunk.js.map",
+    "index.html": "/create-cards-react/index.html",
+    "static/css/main.c8e77bd8.chunk.css.map": "/create-cards-react/static/css/main.c8e77bd8.chunk.css.map",
+    "static/js/2.b55a962d.chunk.js.LICENSE.txt": "/create-cards-react/static/js/2.b55a962d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/create-cards-react/static/media/phalls_khodkar.d8f20807.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.35959db8.js",
-    "static/js/2.844e06db.chunk.js",
-    "static/css/main.b5636eab.chunk.css",
+    "static/js/runtime-main.f4057ab0.js",
+    "static/js/2.b55a962d.chunk.js",
+    "static/css/main.c8e77bd8.chunk.css",
     "static/js/main.105bbd12.chunk.js"
   ]
 }
