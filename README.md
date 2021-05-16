@@ -1,7 +1,7 @@
 
 # Create Cards use React
 
-### Damo
+### Demo
 
 this peoject used the following 
 React ,
@@ -14,9 +14,10 @@ https://www.pexels.com/search/pattern
 
 response website
 
-what need also 
-1-more feature 
-2-fix the auto increase for the texteara 
+### what need also in next version
+1- more feature 
+2- fix the auto increase for the texteara 
+3- react-transition-group for animation
 
 ### work fine on
 Firefox 3.5+
