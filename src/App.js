@@ -34,7 +34,7 @@ function App() {
         <Navigation onClickMenu={handleToggleButton} onClickDownload={downloadimage} />
         <div className='flex'>
           <div className={`w-small ${showSider}`}>
-            <LeftBar onClickDownload={downloadimage} />
+            <LeftBar onClickMenu={handleToggleButton} onClickDownload={downloadimage} />
           </div>
           <div className='frame-position'>
             <Frame />

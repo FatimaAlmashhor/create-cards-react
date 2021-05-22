@@ -6,7 +6,7 @@ const navigation = ({ onClickMenu, onClickDownload }) => {
     return (
         <div className='navigation'>
             <nav className='nav'>
-                <div>LOGO</div>
+                <div>Create Card</div>
                 <div>
                     <p className='download' onClick={() => onClickDownload()}>DOWNLOAD</p>
                     <p className='menu' onClick={() => onClickMenu()}>Menu</p>

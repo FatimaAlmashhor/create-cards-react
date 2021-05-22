@@ -54,21 +54,28 @@ const MainTitle = styled.textarea.attrs({
 })`
     font-family:${props => props.fontFamily} ;
     text-align : center ;
-    width : 100%;
+    width : 90%;
     align-self : center ;
-    margin : 35% 0px 0px  0px;
+    justify-self : center ;
+    margin : 25% 0px 0px  0px;
     background-color: transparent;
     border : none ;
     transition: all 0.6s ease;
     color : ${props => props.fontColor} ;
     font-size : ${props => props.fontSize} ;
-    
+    resize : vertical ;
+    overflow-y : hidden;
+    max-height : 200px ;
+    &:active {
+        height: auto;
+    }
     &:focus{
         border : none ;
+        min-height : 100px;
     }
 `
 const SecondTitle = styled.input.attrs({
-    placeholder: '@FatimaAlmashhor '
+    placeholder: '@useName'
 })`
     font-size : 12px ;
     text-align : center ;
@@ -83,6 +90,7 @@ const Frame = () => {
     const { frameData, dispatch } = useContext(FrameContext);
     const [frameType, setframeType] = useState(0);
     const [showFontDetails, setshowFontDetails] = useState(false);
+    const [data, setdata] = useState('')
     const [showFontSize, setshowFontSize] = useState(false);
     const handleCloseFontDetails = () => {
         setshowFontDetails(false)
@@ -98,14 +106,16 @@ const Frame = () => {
             {frameType === 0 ?
                 <FrameSquare id='card' bg={frameData.background}>
                     <MainTitleWarrper>
-                        <div onSelect={() => { setshowFontDetails(true); setshowFontSize(true) }}>
+                        <div onDoubleClickCapture={() => { setshowFontDetails(true); setshowFontSize(true) }}>
                             <MainTitle
+                                onChange={(e) => setdata(e.target.value)}
+                                value={data}
                                 fontFamily={frameData.fontFamily}
                                 fontColor={frameData.fontColor}
                                 fontSize={frameData.fontSize}
                             />
                         </div>
-                        <div onSelect={() => { setshowFontDetails(true); setshowFontSize(false) }}>
+                        <div onDoubleClickCapture={() => { setshowFontDetails(true); setshowFontSize(false) }}>
                             <SecondTitle color={frameData.secondColorText} />
                         </div>
                     </MainTitleWarrper>
@@ -115,6 +125,8 @@ const Frame = () => {
                         <MainTitleWarrper>
                             <div onSelect={() => { setshowFontDetails(true); setshowFontSize(true) }}>
                                 <MainTitle
+                                    onChange={(e) => setdata(e.target.value)}
+                                    value={data}
                                     fontFamily={frameData.fontFamily}
                                     fontColor={frameData.fontColor}
                                     fontSize={frameData.fontSize}
@@ -129,6 +141,8 @@ const Frame = () => {
                         <MainTitleWarrper>
                             <div onSelect={() => { setshowFontDetails(true); setshowFontSize(true) }}>
                                 <MainTitle
+                                    onChange={(e) => setdata(e.target.value)}
+                                    value={data}
                                     fontFamily={frameData.fontFamily}
                                     fontColor={frameData.fontColor}
                                     fontSize={frameData.fontSize}

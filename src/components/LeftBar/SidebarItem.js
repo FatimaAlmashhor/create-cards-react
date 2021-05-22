@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 const SidebarItem = (props) => {
-    const { name, content } = props;
+    const { name, content, onClickMenu } = props;
     const classes = useStyles();
     const { frameDate, dispatch } = useContext(FrameContext)
     return (
@@ -51,7 +51,7 @@ const SidebarItem = (props) => {
                         content.map((color, index) =>
                             <div
                                 key={index}
-                                onClick={() => dispatch({ type: 'CHANGE_BACKGROUND', background: color })}
+                                onClick={() => { dispatch({ type: 'CHANGE_BACKGROUND', background: color }); onClickMenu() }}
                                 className={classes.pallateItem}
                                 style={{
                                     backgroundColor: color
@@ -61,7 +61,7 @@ const SidebarItem = (props) => {
                             content.map((img, index) =>
                                 <div
                                     key={index}
-                                    onClick={() => dispatch({ type: 'CHANGE_BACKGROUND', background: `url(${img})` })}
+                                    onClick={() => { dispatch({ type: 'CHANGE_BACKGROUND', background: `url(${img})` }); onClickMenu() }}
                                     className={classes.pallateItem}
                                     style={{
                                         backgroundImage: `url(${img})`,
@@ -71,7 +71,7 @@ const SidebarItem = (props) => {
                             ) :
                             content.map((font, index) =>
                                 <p
-                                    onClick={() => dispatch({ type: 'CHANGE_FONT', fontFamily: font })}
+                                    onClick={() => { dispatch({ type: 'CHANGE_FONT', fontFamily: font }); onClickMenu() }}
                                     key={index}
                                     style={{
                                         fontFamily: font,
