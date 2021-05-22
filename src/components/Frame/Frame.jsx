@@ -106,7 +106,7 @@ const Frame = () => {
             {frameType === 0 ?
                 <FrameSquare id='card' bg={frameData.background}>
                     <MainTitleWarrper>
-                        <div onDoubleClickCapture={() => { setshowFontDetails(true); setshowFontSize(true) }}>
+                        <div onDoubleClick={() => { setshowFontDetails(true); setshowFontSize(true) }}>
                             <MainTitle
                                 onChange={(e) => setdata(e.target.value)}
                                 value={data}
@@ -115,7 +115,7 @@ const Frame = () => {
                                 fontSize={frameData.fontSize}
                             />
                         </div>
-                        <div onDoubleClickCapture={() => { setshowFontDetails(true); setshowFontSize(false) }}>
+                        <div onDoubleClick={() => { setshowFontDetails(true); setshowFontSize(false) }}>
                             <SecondTitle color={frameData.secondColorText} />
                         </div>
                     </MainTitleWarrper>
