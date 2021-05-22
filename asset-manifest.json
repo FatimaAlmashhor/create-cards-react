@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/create-cards-react/static/css/main.c8e77bd8.chunk.css",
-    "main.js": "/create-cards-react/static/js/main.e74f429b.chunk.js",
-    "main.js.map": "/create-cards-react/static/js/main.e74f429b.chunk.js.map",
+    "main.css": "/create-cards-react/static/css/main.caed2f11.chunk.css",
+    "main.js": "/create-cards-react/static/js/main.383adec4.chunk.js",
+    "main.js.map": "/create-cards-react/static/js/main.383adec4.chunk.js.map",
     "runtime-main.js": "/create-cards-react/static/js/runtime-main.f4057ab0.js",
     "runtime-main.js.map": "/create-cards-react/static/js/runtime-main.f4057ab0.js.map",
     "static/js/2.b55a962d.chunk.js": "/create-cards-react/static/js/2.b55a962d.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.92e8bba4.chunk.js": "/create-cards-react/static/js/3.92e8bba4.chunk.js",
     "static/js/3.92e8bba4.chunk.js.map": "/create-cards-react/static/js/3.92e8bba4.chunk.js.map",
     "index.html": "/create-cards-react/index.html",
-    "static/css/main.c8e77bd8.chunk.css.map": "/create-cards-react/static/css/main.c8e77bd8.chunk.css.map",
+    "static/css/main.caed2f11.chunk.css.map": "/create-cards-react/static/css/main.caed2f11.chunk.css.map",
     "static/js/2.b55a962d.chunk.js.LICENSE.txt": "/create-cards-react/static/js/2.b55a962d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/create-cards-react/static/media/phalls_khodkar.d8f20807.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.f4057ab0.js",
     "static/js/2.b55a962d.chunk.js",
-    "static/css/main.c8e77bd8.chunk.css",
-    "static/js/main.e74f429b.chunk.js"
+    "static/css/main.caed2f11.chunk.css",
+    "static/js/main.383adec4.chunk.js"
   ]
 }
